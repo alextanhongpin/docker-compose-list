@@ -1,0 +1,8 @@
+version: '3'
+services:
+  sdc:
+    image: alextanhongpin/streamsets:1.1.4
+    ports:
+      - 18630:18630
+    environment:
+      - ./data/sdc:/var/app/data
